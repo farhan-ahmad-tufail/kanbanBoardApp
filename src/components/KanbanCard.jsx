@@ -1,6 +1,7 @@
 import React from 'react';
 import './KanbanCard.css';
 
+
 const KanbanCard = ({ ticket, users, onStatusChange }) => {
   const user = users.find(u => u.id === ticket.userId);
 
